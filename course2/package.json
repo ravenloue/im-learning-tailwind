@@ -1,0 +1,19 @@
+{
+    "name": "notreallytesla",
+    "version": "1.0.0",
+    "description": "",
+    "main": "tailwind.config.js",
+    "scripts": {
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+        "prettier": "npx prettier --write **/*.html"
+    },
+    "keywords": [],
+    "author": "Brandie Mallard",
+    "license": "UNLICENSED",
+    "devDependencies": {
+        "prettier-plugin-tailwindcss": "^0.6.11"
+    },
+    "dependencies": {
+        "tailwindcss": "^4.1.8"
+    }
+}
